@@ -1,6 +1,6 @@
 #creating build pipeline for dotnet app
 stages:
-  - stage: continousintegration
+  - stage: Continousintegration
     displayName: Continousintegration
     jobs:
     - job: dotnetbuild
@@ -19,10 +19,3 @@ stages:
 
 
 
-
-
-
-
-
-
-  - stage: continous-deployment
